@@ -15,7 +15,7 @@ const props = defineProps<{
 }>();
 
 const { status, data, send, open, close } = useWebSocket(
-  `ws://chats-backoffice.vercel.app/ws/${props.cat.id}`
+  `ws://chats-backoffice.onrender.com/ws/${props.cat.id}`
 );
 
 const messages: any = ref([]);

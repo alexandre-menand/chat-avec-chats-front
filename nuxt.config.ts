@@ -6,4 +6,5 @@ export default defineNuxtConfig({
     'nuxt-icon'
   ],
   devtools: { enabled: true },
+  ssr: false
 })

@@ -6,5 +6,14 @@ export default defineNuxtConfig({
     'nuxt-icon'
   ],
   devtools: { enabled: true },
-  ssr: false
+  ssr: false,
+  routeRules: {
+    // Homepage pre-rendered at build time
+    '/*': {
+      cors: true,
+      headers: {
+        'access-control-allow-methods': 'GET, POST',
+      }
+    },
+  },
 })

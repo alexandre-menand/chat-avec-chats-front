@@ -13,6 +13,7 @@ export default defineNuxtConfig({
       cors: true,
       headers: {
         'access-control-allow-methods': 'GET, POST',
+        'Access-Control-Allow-Origin': *
       }
     },
   },

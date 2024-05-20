@@ -1,9 +1,10 @@
 # Chat avec des Chats (Front)
 
 Vous pouvez découvrir le projet ici : [Chat avec des chats](https://chat-avec-chats-front.vercel.app/)
-ATTENTION: Il se peut que le site ne fonctionne pas dans l'immédiat, le back-end est hébergé sur une solution de Cloud gratuit (il faut quelques secondes pour qu'il se déclenche)
 
-Le projet utilise [Nuxt 3](https://nuxt.com/) pour le front-end
+🚨 ATTENTION: Il se peut que le site ne fonctionne pas dans l'immédiat, le back-end est hébergé sur une solution de Cloud gratuit (il faut quelques secondes pour qu'il se déclenche).
+
+Le projet utilise [Nuxt 3](https://nuxt.com/) pour le front-end.
 
 ## Setup
 
